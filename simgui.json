@@ -1,0 +1,44 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/PWMSparkMax[0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[1]": "Motor Controller",
+      "/SmartDashboard/Arm Sim": "Mechanism2d",
+      "/SmartDashboard/Mech2d": "Mechanism2d",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/SendableChooser[1]": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/Arm Sim": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Mech2d": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "FMSInfo": {
+        "open": true
+      },
+      "LiveWindow": {
+        "open": true
+      },
+      "Shuffleboard": {
+        "open": true
+      },
+      "SmartDashboard": {
+        "Mech2d": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  }
+}
